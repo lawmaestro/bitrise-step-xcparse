@@ -116,7 +116,7 @@ LOGS_ZIP="${TEMPORARY_DIRECTORY}/logs.zip"
 
 SCREENSHOTS_OUTPUT_DIR="screenshots"
 SCREENSHOTS_OUTPUT_PATH="${TEMPORARY_DIRECTORY}/${SCREENSHOTS_OUTPUT_DIR}"
-SCREENSHOTS_ZIP="${TEMPORARY_DIRECTORY}/screenshots.zip"
+SCREENSHOTS_ZIP="${TEMPORARY_DIRECTORY}/${screenshots_archive_name}.zip"
 
 # Now let's start extraction
 validate_required_input_with_options "extract_attachments" ${extract_attachments} "${options[@]}"

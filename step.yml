@@ -232,6 +232,12 @@ inputs:
           Test failure debug descriptions
 
         Read [this Apple documentation](https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html#//apple_ref/doc/uid/TP40009259-SW1) for a list of publicly documented UTIs.
+  - screenshots_archive_name: "screenshots"
+    opts:
+      category: Screenshot Options
+      title: Screenshots archive name
+      description: |-
+          Specify the base filename of the screenshots archive. For example, leaving as the default ```screenshots``` will result in a ```screenshots.zip``` being produced.
   - screenshots_divide_by_model: "no"
     opts:
       category: Screenshot Options
