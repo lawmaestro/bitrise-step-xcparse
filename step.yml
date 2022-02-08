@@ -73,7 +73,7 @@ inputs:
     opts:
       title: Extract Attachments
       description: |-
-        If enabled, the attachments within the xcresult will be extracted.
+        If enabled, the attachments within the xcresult will be extracted. The path will be exported to ```XCPARSE_ATTACHMENTS_PATH```
       value_options:
         - "yes"
         - "no"
@@ -109,6 +109,12 @@ inputs:
       value_options:
         - "yes"
         - "no"
+  - attachments_archive_name: "attachments"
+    opts:
+      category: Attachment Options
+      title: Attachments archive name
+      description: |-
+          Specify the base filename of the attachments archive. For example, leaving as the default ```attachments``` will result in a ```attachments.zip``` being produced.
   - attachments_divide_by_model: "no"
     opts:
       category: Attachment Options
