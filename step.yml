@@ -232,6 +232,12 @@ inputs:
           Test failure debug descriptions
 
         Read [this Apple documentation](https://developer.apple.com/library/archive/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html#//apple_ref/doc/uid/TP40009259-SW1) for a list of publicly documented UTIs.
+  - code_coverage_archive_name: "codecoverage"
+    opts:
+      category: Code Coverage Options
+      title: Code coverage archive name
+      description: |-
+          Specify the base filename of the code coverage archive. For example, leaving as the default ```codecoverage``` will result in a ```codecoverage.zip``` being produced.
   - screenshots_archive_name: "screenshots"
     opts:
       category: Screenshot Options
