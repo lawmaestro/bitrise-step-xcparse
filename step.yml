@@ -73,7 +73,7 @@ inputs:
     opts:
       title: Extract Attachments
       description: |-
-        If enabled, the attachments within the xcresult will be extracted. The path will be exported to ```XCPARSE_ATTACHMENTS_PATH```
+        If enabled, the attachments within the xcresult will be extracted. The path will be exported to ```XCPARSE_ATTACHMENTS_PATH```.
       value_options:
         - "yes"
         - "no"
@@ -81,7 +81,7 @@ inputs:
     opts:
       title: Extract Code Coverage
       description: |-
-        If enabled, the code coverage files within the xcresult will be extracted.
+        If enabled, the code coverage files within the xcresult will be extracted. The path will be exported to ```XCPARSE_CODE_COVERAGE_PATH```.
       value_options:
         - "yes"
         - "no"
@@ -89,7 +89,7 @@ inputs:
     opts:
       title: Extract Logs
       description: |-
-        If enabled, the logs & diagnostics within the xcresult will be extracted.
+        If enabled, the logs & diagnostics within the xcresult will be extracted. The path will be exported to ```XCPARSE_LOGS_PATH```.
       value_options:
         - "yes"
         - "no"
@@ -97,7 +97,7 @@ inputs:
     opts:
       title: Extract Screenshots
       description: |-
-        If enabled, the screenshots within the xcresult will be extracted.
+        If enabled, the screenshots within the xcresult will be extracted. The path will be exported to ```XCPARSE_SCREENSHOTS_PATH```.
       value_options:
         - "yes"
         - "no"
