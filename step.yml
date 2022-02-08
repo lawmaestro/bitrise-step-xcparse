@@ -238,6 +238,12 @@ inputs:
       title: Code coverage archive name
       description: |-
           Specify the base filename of the code coverage archive. For example, leaving as the default ```codecoverage``` will result in a ```codecoverage.zip``` being produced.
+  - logs_archive_name: "logs"
+    opts:
+      category: Log Options
+      title: Logs archive name
+      description: |-
+          Specify the base filename of the logs archive. For example, leaving as the default ```logs``` will result in a ```logs.zip``` being produced.
   - screenshots_archive_name: "screenshots"
     opts:
       category: Screenshot Options
